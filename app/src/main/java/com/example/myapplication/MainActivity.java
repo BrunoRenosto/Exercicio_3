@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         if(num!=0){
             num--;
         }
-        if((total-3)!=0){
+        if((total-3)>= 0){
             total -= 3;
         }
         cafe.setText("" + num);
@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
         if(num!=0){
             num--;
         }
-        if((total- 4)!=0){
+        if((total- 4)>= 0){
             total -= 4;
         }
         cafe.setText("" + num);
@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
         if(num!=0){
             num--;
         }
-        if((total- 5)!=0){
+        if((total- 5)>= 0){
             total -= 5;
         }
         cafe.setText("" + num);
@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity {
         if(num!=0){
             num--;
         }
-        if((total- 7)!=0){
+        if((total- 7)>= 0){
             total -= 7;
         }
         cafe.setText("" + num);
@@ -172,7 +172,7 @@ public class MainActivity extends AppCompatActivity {
         if(num!=0){
             num--;
         }
-        if((total- 10)!=0){
+        if((total- 10) >= 0){
             total -= 10;
         }
         cafe.setText("" + num);
